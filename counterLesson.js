@@ -5,13 +5,14 @@ let secondBAtch = 7;
 
 // count = "I am a King"
 const myPi = 3.43434
-let count = 5
-count = count + 4
+
 // myPi = "pi tester"
 
+let count = 0;
+
+
 function increment(){
-    console.log("could you not click me so much??")
+    count = count + 1
+    console.log(count)
 }
 
-
-console.log(count)
