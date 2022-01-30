@@ -9,4 +9,9 @@ let count = 5
 count = count + 4
 // myPi = "pi tester"
 
+function increment(){
+    console.log("could you not click me so much??")
+}
+
+
 console.log(count)
