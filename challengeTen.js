@@ -10,8 +10,7 @@ function saluteUser(username) {
 saluteUser(username)
 
 function addEmoji() {
-    welcomeEl.innerText = welcomeEl.innerText + " 🖐️"
+    welcomeEl.innerText += " 🖐️"
 }
-
 
 addEmoji()

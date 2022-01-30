@@ -12,12 +12,15 @@ let count = 0;
 
 
 function increment(){
-    count = count + 1
+    count += 1
     document.getElementById("count-el").innerText = count
     
 }
 
 function save() {
-    console.log(count)
-    
+    saveEl = document.getElementById("save-el").innerText
+    currentCount = document.getElementById("count-el").innerText + " - "
+    saveEl = saveEl + currentCount
+
+    document.getElementById("save-el").innerText = " " + saveEl
 }
