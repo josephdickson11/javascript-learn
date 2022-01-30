@@ -13,14 +13,16 @@ let count = 0;
 
 function increment(){
     count += 1
-    document.getElementById("count-el").innerText = count
+    document.getElementById("count-el").textContent = count
     
 }
 
 function save() {
-    saveEl = document.getElementById("save-el").innerText
-    currentCount = document.getElementById("count-el").innerText + " - "
-    saveEl = saveEl + currentCount
+    saveEl = document.getElementById("save-el").textContent
+    currentCount = document.getElementById("count-el").textContent + " - "
+    saveEl += currentCount
 
-    document.getElementById("save-el").innerText = " " + saveEl
+    document.getElementById("save-el").textContent = " " + saveEl
+    count = 0
+    document.getElementById("count-el").textContent = count
 }
