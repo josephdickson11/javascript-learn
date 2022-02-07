@@ -1,0 +1,11 @@
+{
+    "name": "Counter app",
+    "version": "1.0.0",
+    "description": "Dummy counter app",
+    "manifest_version": 3,
+    "author": "Oladipupo Ibeun",
+    "action": {
+        "default_popup": "counterLesson.html",
+        "default_title": "Dummy Counter App"
+    }
+}
