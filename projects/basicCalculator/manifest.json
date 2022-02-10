@@ -1,0 +1,11 @@
+{
+    "name": "Calculator app",
+    "version": "1.0.0",
+    "description": "Dummy calculator app",
+    "manifest_version": 3,
+    "author": "Oladipupo Ibeun",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Dummy Calculator App"
+    }
+}
